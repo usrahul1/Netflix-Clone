@@ -32,6 +32,41 @@
 }
 
 .cont{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1.5rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.cont h3{
+    font-size: 2rem;
+}
+
+.cont input, .cont button{
+    border-radius: 7px;
+}
+
+
+
+.cont input{
+    background: transparent;
+    outline: none;
+    height: 3rem;
+}
+
+.cont button{
+    height: 3rem;
+}
+
+.cont .submitp{
+    background-color: #e40814;
+}
+
+.cont .forgotp{
+    background: transparent;
+    border: none;
 }
